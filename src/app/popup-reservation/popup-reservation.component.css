@@ -1,0 +1,18 @@
+
+
+
+.time-picker {
+  margin-bottom: 10px;
+  margin-left: 40%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 40%;
+}
+
+.B1{height: 30%;
+  width: 20%;
+  background-color: rgb(219, 194, 52);
+  border-color: rgb(219, 194, 52);}

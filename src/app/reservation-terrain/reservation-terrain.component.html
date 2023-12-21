@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Réservations de terrains</title>
+</head>
+<body class="header">
+ 
+    <nav class="navbar navbar-expand-lg  bb" id="xy">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+           <li><a [routerLink]="['/userhome']" id="colarr">home</a></li>
+          <li><a [routerLink]="['/Reservation']" id="colarr">Réservation</a></li>
+          <li><a [routerLink]="['/login']" id="colarr">Login</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Liste de réservations de terrains</h1>
+
+    <div class="terrain">
+        <img src="../../assets/pic/PH-Terrain.png" alt="Terrain 1">
+        <p>Description du terrain 1</p>
+        <p class="reservation">Réservation : 20 novembre 2023</p>
+        <button class="bt" (click)="openPopup()"> Réserve ce Terrain</button>
+    </div>
+
+    <div class="terrain">
+        <img src="../../assets/pic/PH-Terrain.png" alt="Terrain 2">
+        <p>Description du terrain 2</p>
+        <p class="reservation">Réservation : 22 novembre 2023</p>
+        <button class="bt" (click)="openPopup()"> Réserve ce Terrain</button>
+    </div>
+
+    <!-- Vous pouvez ajouter autant de divs de classe "terrain" que nécessaire pour représenter vos différents terrains -->
+
+</body>
+</html>
+
+
